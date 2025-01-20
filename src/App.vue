@@ -13,6 +13,7 @@
         @keydown="keyup($event)"
         @focus="setTarget(1)"
         @click="setTarget(1)"
+        @blur="setTarget(1)"
       />
       <br />
       {{ input }}
